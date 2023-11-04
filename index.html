@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Management Support</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="./favicon.ico?" type="image/x-icon">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+  <!-- FAZER LOADING STATE ON PAGE LOAD -->
+
+  <header class="header">
+    <div class="container">
+      <a class="logo" href="/">PM</a>
+
+      <nav>
+        <div class="item dropdown" data-dropdown>
+          More
+
+          <div class="dropdown-box">
+            <a class="item" href="#about">About</a>
+            <a class="item" href="#promotion">Promotion</a>
+            <a class="item" href="#slide">Slide</a>
+            <a class="item" href="#services">Services</a>
+          </div>
+        </div>
+
+        <a class="item" href="#portfolio">Portfolio</a>
+        <a class="item" href="#pricing">Pricing</a>
+        <a class="item" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="banner">
+      <div class="container">
+        <h1 data-aos="fade-up">Project Management T3-2023</h1>
+        <strong data-aos="fade-up">By Andre Mendonca - 70398</strong>
+    
+        <form class="email-subscription" data-aos="fade-up">
+          <input type="text" />
+    
+          <button type="submit">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.139459 9.37468C0.70799 6.86985 2.94813 5 5.625 5H39.375C42.0519 5 44.292 6.86985 44.8605 9.37468L22.5 23.0395L0.139459 9.37468ZM0 12.5855V32.5642L16.3215 22.5598L0 12.5855ZM19.0164 24.2067L0.539637 35.5322C1.4417 37.4345 3.37972 38.75 5.625 38.75H39.375C41.6203 38.75 43.5583 37.4345 44.4604 35.5322L25.9836 24.2067L22.5 26.3355L19.0164 24.2067ZM28.6785 22.5598L45 32.5642V12.5855L28.6785 22.5598Z" fill="#ffffff"/>
+            </svg>
+            <span>Subscribe</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="qr-code">
+      <img src="./assets/qr-code.png" alt="QR Code" data-aos="fade-up" />
+    </section>
+
+    <section class="about" id="about">
+      <div class="content">
+        <div class="wrapper">
+          <div class="item" data-aos="fade-up">
+            <h2>Gant Chart Demo</h2>
+
+            <div>
+              Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vivamus laoreet.
+            </div>
+
+            <a href="/gant-chart.html">View demo</a>
+          </div>
+
+          <div class="item" data-aos="fade-up">
+            <h2>Download Assessment One</h2>
+
+            <div>
+              Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vivamus laoreet.
+            </div>
+
+            <a download target="_blank" href="./assessment-task-1.pdf">Download</a>
+          </div>
+
+          <div class="item" data-aos="fade-up">
+            <h2>Download Assessment Two</h2>
+
+            <div>
+              Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vivamus laoreet.
+            </div>
+
+            <a download target="_blank" href="./assessment-task-2.pdf">Download</a>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="img">
+        <img src="./assets/smartphone.jpg" alt="Smartphone" />
+      </div>
+    </section>
+
+    <section class="promotion container" id="promotion">
+      <div>
+        <h2 data-aos="fade-up">Create a superb Promotional Video</h2>
+
+        <p data-aos="fade-up">Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vivamus laoreet. ique sapien, a accumsan nisi mauris ac eros. Vivamus laoreet.</p>
+
+        <a href="#contact" data-aos="fade-up">Contact us</a>
+      </div>
+
+      <img src="./assets/promotion-video.jpg" alt="Video Camera" data-aos="fade-up" />
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h2 data-aos="fade-up">Services</h2>
+        <p data-aos="fade-up">Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim.</p>
+
+        <div class="grid">
+          <div class="item" data-aos="fade-up">
+            <img src="./assets/icons/Subtract.svg" alt="Icon" />
+
+            <h3>Internet Support</h3>
+          </div>
+
+          <div class="item" data-aos="fade-up">
+            <img src="./assets/icons/Vector.svg" alt="Icon" />
+
+            <h3>Data & Communications</h3>
+          </div>
+
+          <div class="item" data-aos="fade-up">
+            <img src="./assets/icons/Subtract-1.svg" alt="Icon" />
+
+            <h3>Fixing Issues</h3>
+          </div>
+
+          <div class="item" data-aos="fade-up">
+            <img src="./assets/icons/award-fill.svg" alt="Icon" />
+
+            <h3>Perfect Work</h3>
+          </div>
+
+          <div class="item" data-aos="fade-up">
+            <img src="./assets/icons/mortarboard-fill.svg" alt="Icon" />
+
+            <h3>Educational Resources</h3>
+          </div>
+
+          <div class="item" data-aos="fade-up">
+            <img src="./assets/icons/mail.svg" alt="Icon" />
+
+            <h3>Updated Emails</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+      <h2 data-aos="fade-up">Portfolio</h2>
+
+      <div class="grid">
+        <div class="item" data-aos="fade-up">
+          <h3>Step One</h3>
+          <em>01</em>
+
+          <p>Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien.</p>
+        </div>
+
+        <div class="item" data-aos="fade-up">
+          <h3>Step Two</h3>
+          <em>02</em>
+
+          <p>Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien.</p>
+        </div>
+
+        <div class="item" data-aos="fade-up">
+          <h3>Step Three</h3>
+          <em>03</em>
+
+          <p>Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien.</p>
+        </div>
+
+        <div class="item" data-aos="fade-up">
+          <h3>Step Four</h3>
+          <em>04</em>
+
+          <p>Nunc nonummy metus. Nullam cursus lacinia erat. Nullam tincidunt adipiscing enim. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="slide">
+      <h2>Project Management Slider</h2>
+
+
+      <div class="swiper" id="slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/slide1.jpg" alt="Slide 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/slide2.jpg" alt="Slide 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/slide3.jpg" alt="Slide 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plans" id="pricing">
+      <h2 data-aos="fade-up">Our Pricing Table</h2>
+
+      <div class="container">
+        <div class="item" data-aos="fade-up">
+          <h3>Basic</h3>
+          <em>$180</em>
+
+          <ul>
+            <li>Lorem ipsum canis</li>
+            <li>Lorem ipsum canis majoris</li>
+            <li>Lorem ipsum can</li>
+          </ul>
+
+          <a href="#">Sign Up</a>
+        </div>
+
+        <div class="item" data-aos="fade-up">
+          <h3>Pro</h3>
+          <em>$250</em>
+
+          <ul>
+            <li>Lorem ipsum canis</li>
+            <li>Lorem ipsum canis majoris</li>
+            <li>Lorem ipsum can</li>
+          </ul>
+
+          <a href="#">Sign Up</a>
+        </div>
+
+        <div class="item" data-aos="fade-up">
+          <h3>Premium</h3>
+          <em>$380</em>
+
+          <ul>
+            <li>Lorem ipsum canis</li>
+            <li>Lorem ipsum canis majoris</li>
+            <li>Lorem ipsum can</li>
+          </ul>
+
+          <a href="#">Sign Up</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact container" id="contact">
+      <h2 data-aos="fade-up">Contact Us</h2>
+
+      <div class="grid">
+        <div data-aos="fade-up">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p>Brisbane, Australia</p>
+          <a href="tel:0554 987 572">0554 987 572</p>
+          <a href="mailto:andre@wellscollege.com.au">andre@wellscollege.com.au</a>
+        </div>
+
+        <form data-aos="fade-up">
+          <input type="name" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea name="textarea" cols="30" rows="5">Enquiry</textarea>
+          <select name="state">
+            <option value="qld">QLD</option>
+            <option value="nsw">NSW</option>
+            <option value="vic">VIC</option>
+            <option value="sa">SA</option>
+            <option value="wa">WA</option>
+            <option value="nt">NT</option>
+            <option value="tas">TAS</option>
+            <option value="act">ACT</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <img src="./assets/team-work.jpg" alt="Team Work" class="full-width-img" />
+
+  </main>
+
+  <footer class="footer">
+    <p class="container">Website created by Andre Mendonca - 70398
+    </p>
+  </footer>
+
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    AOS.init();
+
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 60,
+      rewind: true,
+      autoplay: {
+        delay: 2500,
+      },
+    });
+  </script>
+
+  <script src="./script.js"></script>
+
+
+</body>
+</html>
